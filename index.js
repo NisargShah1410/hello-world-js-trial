@@ -5,7 +5,8 @@ try {
   // `who-to-greet` input defined in action metadata file
   //const nameToGreet = core.getInput('who-to-greet');
   //console.log(`Hello ${nameToGreet}!`);
-  const lang = core.getInput('language-name');
+  //const lang = core.getInput('language-name');
+  $lang = 'dotnet-core'
   console.log('Language selected is ${lang}');
   const time = (new Date()).toTimeString();
   core.setOutput("time", time);
