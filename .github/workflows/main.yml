@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: NisargShah1410/hello-world-javascript-action@v1.1
-        with:
-          who-to-greet: 'Nisarg'
+      #- name: Hello world action step
+       # id: hello
+        #uses: NisargShah1410/hello-world-javascript-action@v1.1
+        #with:
+         # who-to-greet: 'Nisarg'
       - name: Build
         id: build
         uses: NisargShah1410/hello-world-javascript-action@v1.1
