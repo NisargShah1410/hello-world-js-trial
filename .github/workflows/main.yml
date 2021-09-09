@@ -10,6 +10,13 @@ jobs:
         uses: NisargShah1410/hello-world-javascript-action@v1.1
         with:
           who-to-greet: 'Nisarg'
+      - name: Build
+        id: build
+        uses: NisargShah1410/hello-world-javascript-action@v1.1
+        #with:
+         # language-name: ''
+        
+        
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
