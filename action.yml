@@ -5,6 +5,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  language-name: 
+    description: 'Which language do you want to select'
+    required: true
+    default: 'dotnet'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
