@@ -5,6 +5,7 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+inputs:
   language-name: 
     description: 'Which language do you want to select'
     required: true
